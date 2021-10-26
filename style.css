@@ -1,0 +1,44 @@
+h1 {
+  color: black;
+}
+.read-more {
+  background-color: white;
+  color: black;
+}
+
+.read-more:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgb(255, 255, 255);
+}
+.read-more {
+  border: none;
+}
+body {
+  background-color: grey;
+}
+.icon {
+  display: inline-block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: x-large;
+  letter-spacing: 0.5rem  ;
+}
+.sponsored{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.navbar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  }
+  *{
+    color: white;
+  }
+  h1{
+    color: white;
+  }
+  
