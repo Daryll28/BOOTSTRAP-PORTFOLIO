@@ -1,5 +1,5 @@
 h1 {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .read-more {
   background-color: white;
@@ -10,12 +10,19 @@ h1 {
   background-color: transparent;
   color: white;
   border: 2px solid rgb(255, 255, 255);
+  color: greenyellow;
 }
 .read-more {
   border: none;
+  
 }
 body {
-  background-color: grey;
+  background-repeat: no-repeat;
+  background-image: url(./background-img.webp);
+  background-size: cover;
+  background-position: center;
+ background-attachment: fixed;
+ 
 }
 .icon {
   display: inline-block;
@@ -24,6 +31,10 @@ body {
   left: 0;
   font-size: x-large;
   letter-spacing: 0.5rem;
+  
+}
+.icon:hover{
+  font-size: xx-large;
 }
 .sponsored {
   position: fixed;
@@ -36,10 +47,10 @@ body {
   right: 0;
 }
 * {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 h1 {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .box-small {
@@ -48,4 +59,28 @@ h1 {
   margin: 1%;
   border-radius: 15px;
   width: 48%;
+  height: 55%;
+  text-align: center;
 }
+.box-small:hover {
+  background-color: white;
+  color: black;
+}
+.me:hover {
+}
+.about:hover {
+  border-top-style: dashed ;
+  border-left-style: dashed;
+  border-radius: 10%;
+}
+.nav-item:hover{
+  font-size: xx-large;
+  border-left: 3px solid greenyellow;
+  border-bottom: 3px solid greenyellow;
+ 
+  }
+  .heading1:hover{
+    font-size:70px;
+border-top: 3px solid greenyellow;
+border-bottom: 3px solid greenyellow;
+  }

@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./about.html">
 
+
 </head>
-<body>
-    <section1 style="width: 100vw; height: 100vh;display:flex; flex-direction: column; justify-content: center; align-items: center;">
+<body >
+
+    <section1 id="home" style="width: 100vw; height: 100vh;display:flex; flex-direction: column; justify-content: center; align-items: center;">
                                         
 <!-- NAVBAR -->
 
@@ -36,22 +38,22 @@
             
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">HOME</a>
+                <a class="nav-link" style="color: greenyellow;" href="#home">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT</a>
+                <a class="nav-link" style="color: greenyellow;" href="#about">ABOUT</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">SKILLS</a>
+                <a class="nav-link" style="color: greenyellow;" href="#skills">SKILLS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
+                <a class="nav-link" style="color: greenyellow;" href="#services">SERVICES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">TESTIMONIALS</a>
+                <a class="nav-link" style="color: greenyellow;" href="#testimonials">TESTIMONIALS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" style="color: greenyellow;" href="#contact">CONTACT</a>
               </li>
                 </a>
               </li>
@@ -66,8 +68,8 @@
     
 <!-- HEADING -->
 
-<h1 class="heading1" style="text-align: center; margin-top:5%;">DARYLL GRAINGER</h1>
-<p style="text-align: center; font-size: xx-large;">Front end developer</p>
+<h1 class="heading1" style="text-align: center; margin-top:5%; letter-spacing: 1.5rem; color: greenyellow;">DARYLL  GRAINGER </h1>
+<p style="text-align: center; font-size: xx-large; color: greenyellow;">Front end developer</p>
 <button class="read-more rounded-pill " 
 type="button" 
 style="justify-content: center; width: 10%; height: 60px; ">
@@ -80,60 +82,90 @@ Read More</button>
 <i class="bi bi-twitter"></i>
 <i class="bi bi-linkedin"></i>
 <i class="bi bi-facebook"></i>
-
+<i class="bi bi-github"></i>
 </div>
 <div class="sponsored">
-    Created by Daryll Grainger  
+   Created by Daryll Grainger  <i class="bi bi-check-square-fill"></i>
 </div>
 </section1><br>
 
 
-<section2 style="width: 100vw; height: 100vh;display:flex; flex-direction: column; justify-content: center; align-items: center">
-  <div class="container" style="display: flex;justify-content: center;">
-  <img src="./me.jpg" alt="picture of myself" style="height: 100%; width: 30%; border-radius: 5%;">
-  <div class="about" style="justify-content: center; display: flex; flex-direction: column;">
-  <h1 style="letter-spacing: 1rem; ;" >ABOUT ME</h1>
-  <p>
+<section2 id="about" style="width: 100vw; height: 100vh;display:flex; flex-direction: column; justify-content: center; align-items: center">
+  <div class="container" style="display: flex; justify-content: center; width: 100%;">
+  <img src="./me.jpg" class="me" alt="picture of myself" style="height: 100%; width: 45%; border-radius:   5%; margin-left: 5%;">
+  <div class="about" style="justify-content: center; display: flex; flex-direction: column; padding: 20px;">
+  <h1 style="letter-spacing: 1rem; font-weight: bolder; text-align: center; color: greenyellow;" >ABOUT ME</h1>
+  <p style="font-size: x-large; color: rgb(255, 255, 255);">
 
     An energetic individual who always wants to know how things work.<br>
     Dont get bored easily...can be very commited .<br>
+    Was born on the 29th day of march in 2003.<br>
+    Currently staying in Athlone;bridgetown...<br>
+    <h2 style="color: greenyellow;">  Where did my passion for coding start:</h2><br>
+I have been surrounded by tech for many years. <br>
+All my brothers studied different types of tech,<br> and I was always interested in what they were showing me.<br> I knew from early on that it was a field I wanted to go into.
 
-<div class="box" style="display: flex; justify-content: center; padding: 20px; flex-wrap: wrap;">
+
+<!-- ABOUT PAGE BOX -->
+<div class="box" style="display: flex; padding: 40px; flex-wrap: wrap; ">
 <div class="box-small">
-350
+5<br>
+Projects completed
 
 </div>
 
 <div class="box-small">
-350
+3 weeks<br>
+Time spent on the projects
 </div>
 
 <div class="box-small">
-  350
+  350<br>
+  dkfsdklf
 </div>
 
 <div class="box-small">
-  360
+  360<Br>
+    ksdkjasdijsa
 </div>
-
-
 </div>
-
-
 
 </p>
 </div>
 </div>
-  
+  </section2>
+   <!-- PAGE 3 -->
+  <section3 id="skills" style="width: 100vw; height: 100vh;display:flex; flex-direction: column; justify-content: center; align-items: center">
+
+<h1 style="margin-top: -20%; letter-spacing: 0.7rem; font-weight: bolder; color: greenyellow;">MY SKILLS</h1>
+<p style="font-size: x-large;">This is the skills i have managed to accomplish and the percentage on how good im at it.</p><br>
+
+<div class="label1" style="display:flex; flex-direction: column; width: 45%; justify-self: left;  display: inline-flex; margin-bottom: -20%; font-weight: bolder;">
+<label for="disk_c">HTML:</label>
+<meter id="disk_c" value="8" style="width: 80%;padding: 3%;" min="0" max="10">7.5 out of 10</meter>
+
+<label for="disk_d">CSS:</label>
+<meter id="disk_d"  style="width: 80%; padding: 3%;" value="0.8">100%</meter> 
+
+<label for="disk_d">BOOTSTRAP:</label>
+<meter id="disk_d"  style="width: 80%;padding: 3%" value="0.8">100%</meter>
 
 
-    
-   
+<label for="disk_c">JAVASCRIPT:</label> 
+<meter id="disk_c" value="8" style="width: 80%;padding: 3%" min="0" max="10">2 out of 10</meter>
+
+<label for="disk_d">Disk usage D:</label>
+<meter id="disk_d"  style="width: 80%;padding: 3%" value="0.9">100%</meter> 
+
+<label for="disk_d">Disk usage D:</label>
+<meter id="disk_d"  style="width: 80%;padding: 3%" value="0.9">100%</meter>
+
+</div> 
 
 
 
 
-</section2>
+  </section3>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
