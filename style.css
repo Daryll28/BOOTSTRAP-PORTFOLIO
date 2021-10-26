@@ -23,22 +23,29 @@ body {
   bottom: 0;
   left: 0;
   font-size: x-large;
-  letter-spacing: 0.5rem  ;
+  letter-spacing: 0.5rem;
 }
-.sponsored{
-    position: fixed;
-    bottom: 0;
-    right: 0;
+.sponsored {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
-.navbar{
+.navbar {
   position: fixed;
   top: 0;
   right: 0;
-  }
-  *{
-    color: white;
-  }
-  h1{
-    color: white;
-  }
-  
+}
+* {
+  color: white;
+}
+h1 {
+  color: white;
+}
+
+.box-small {
+  border: 2px solid white;
+  padding: 20px;
+  margin: 1%;
+  border-radius: 15px;
+  width: 48%;
+}
