@@ -14,15 +14,14 @@ h1 {
 }
 .read-more {
   border: none;
-  
 }
 body {
   background-repeat: no-repeat;
-  background-image: url(./background-img.webp);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./background-img.webp);
   background-size: cover;
   background-position: center;
- background-attachment: fixed;
- 
+  background-attachment: fixed;
 }
 .icon {
   display: inline-block;
@@ -31,9 +30,20 @@ body {
   left: 0;
   font-size: x-large;
   letter-spacing: 0.5rem;
-  
 }
-.icon:hover{
+#uppity{
+  position: fixed;
+  /* bottom: 0; */
+  right: 0;
+}
+
+#uppity:hover{
+background-color: greenyellow;
+font-size: xx-large;
+color: black;
+}
+
+.icon:hover {
   font-size: xx-large;
 }
 .sponsored {
@@ -65,22 +75,34 @@ h1 {
 .box-small:hover {
   background-color: white;
   color: black;
+  border:2px solid greenyellow;
 }
 .me:hover {
-}
-.about:hover {
-  border-top-style: dashed ;
+  border-top-style: dashed;
   border-left-style: dashed;
   border-radius: 10%;
 }
-.nav-item:hover{
+
+.about:hover {
+  border-top-style: dashed;
+  border-left-style: dashed;
+  border-radius: 10%;
+}
+.nav-item:hover {
   font-size: xx-large;
   border-left: 3px solid greenyellow;
   border-bottom: 3px solid greenyellow;
- 
-  }
-  .heading1:hover{
-    font-size:70px;
-border-top: 3px solid greenyellow;
-border-bottom: 3px solid greenyellow;
-  }
+}
+.heading1:hover {
+  font-size: 70px;
+  border-left: 3px solid greenyellow;
+  border-bottom: 3px solid greenyellow;
+}
+
+.headings:hover {
+  border-left: 3px solid greenyellow;
+  border-bottom: 3px solid greenyellow;
+  font-size: 70px;
+}
+.box{
+}
