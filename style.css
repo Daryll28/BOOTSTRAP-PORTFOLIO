@@ -83,6 +83,7 @@ h1 {
   border-radius: 10%;
 }
 
+
 .about:hover {
   border-top-style: dashed;
   border-left-style: dashed;
@@ -94,15 +95,48 @@ h1 {
   border-bottom: 3px solid greenyellow;
 }
 .heading1:hover {
-  font-size: 70px;
+  font-size: 60px;
   border-left: 3px solid greenyellow;
   border-bottom: 3px solid greenyellow;
 }
 
-.headings:hover {
-  border-left: 3px solid greenyellow;
-  border-bottom: 3px solid greenyellow;
-  font-size: 70px;
 }
-.box{
+.about-me:hover{
+  font-size: 70px;
+  border-bottom: 3px solid greenyellow ;
+  border-top: 3px solid greenyellow;
+}
+
+
+/* media queries */
+
+@media all and (max-width:850px){
+.me{
+  display: none ;
+}
+.read-more{
+  display: none;
+}
+#work&education{
+  flex-direction: column;
+  flex-wrap: column;
+}
+.col{
+ justify-content: center;
+}
+
+.label1{
+  padding-left: 500px;
+}
+}
+
+
+
+.navbar-toggler{
+  background-color: greenyellow;
+}
+
+
+.container{
+  padding-left: 150px; 
 }

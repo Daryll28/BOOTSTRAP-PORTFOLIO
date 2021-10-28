@@ -39,12 +39,13 @@
         <div class="container-fluid">
           <button
             class="navbar-toggler"
+            style="color: greenyellow;"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
-            aria-label="Toggle navigation"
+            aria-label = "Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -66,12 +67,12 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="color: greenyellow" href="#skills"
-                  >SKILLS</a
+                <a class="nav-link" style="color: greenyellow" href="#work&education"
+                  >WORK & EDUCATION</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="color: greenyellow" href="#services"
+                <a class="nav-link" style="color: greenyellow" href="#projects"
                   >PROJECTS</a
                 >
               </li>
@@ -87,15 +88,11 @@
                 <a
                   class="nav-link"
                   style="color: greenyellow"
-                  href="#work&education"
-                  >WORK&EDUCATION</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" style="color: greenyellow" href="#contact"
+                  href="#contact"
                   >CONTACT</a
                 >
               </li>
+              
             </ul>
           </div>
         </div>
@@ -150,7 +147,7 @@
         Created by Daryll Grainger <i class="bi bi-check-square-fill"></i>
       </div> </section1
     ><br />
-
+                                                                            <!-- ABOUT -->
     <section2
       id="about"
       style="
@@ -159,7 +156,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: center
       "
     >
       <div
@@ -187,7 +184,7 @@
             padding: 20px;
           "
         >
-          <h1
+          <h1 class="about-me"
             style="
               letter-spacing: 1rem;
               font-weight: bolder;
@@ -223,32 +220,24 @@
             class="box"
             style="display: flex; padding: 40px; flex-wrap: wrap"
           >
-            <div class="box-small">
-              5<br />
+            <div class="box-small" style="width: 250px">
+              3<br />
               Projects completed
             </div>
 
-            <div class="box-small">
-              3 weeks<br />
+            <div class="box-small" style="width: 250px">
+              2 weeks<br />
               Time spent on the projects
             </div>
 
-            <div class="box-small">
-              350<br />
-              dkfsdklf
-            </div>
-
-            <div class="box-small">
-              360<br />
-              ksdkjasdijsa
-            </div>
+           
           </div>
           </div>
       </div>
     </section2>
-    <!-- PAGE 3 -->
+                                                                                              <!-- WORK&EDUCATION -->
     <section3
-      id="skills"
+      id="work&education"
       style="
         width: 100vw;
         height: 100vh;
@@ -256,23 +245,23 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
       "
     >
       <h1
         class="headings"
         style="
-          margin-top: -20%;
+          ;
           letter-spacing: 0.7rem;
           font-weight: bolder;
           color: greenyellow;
+          padding-bottom: 50px
         "
       >
-        MY SKILLS
-      </h1>
-      <p style="font-size: x-large">
-        This is the skills i have managed to accomplish and the percentage on
-        how good im at it.
-      </p>
+Work & Education      </h1>
+      <h3 style="font-size: x-large; padding-left: 380px; font-weight: bolder; color: greenyellow;">
+        Technical skills
+      </h3>
       <br />
 
       <div
@@ -281,58 +270,86 @@
           display: flex;
           flex-direction: column;
           width: 45%;
-          justify-self: left;
-          display: inline-flex;
           margin-bottom: -20%;
           font-weight: bolder;
+          align-items: flex-end;
         "
       >
-        <label for="disk_c">HTML:</label>
+        <label for="disk_c" style="color: greenyellow;">HTML:</label>
         <meter
           id="disk_c"
           value="8"
-          style="width: 80%; padding: 3%"
+          style="width: 50%; padding: 3%"
           min="0"
           max="10"
         >
           7.5 out of 10
         </meter>
 
-        <label for="disk_d">CSS:</label>
-        <meter id="disk_d" style="width: 80%; padding: 3%" value="0.8">
+        <label for="disk_d" style="color: greenyellow;">CSS:</label>
+        <meter id="disk_d" style="width: 50%; padding: 3%" value="0.8">
           100%
         </meter>
 
-        <label for="disk_d">BOOTSTRAP:</label>
-        <meter id="disk_d" style="width: 80%; padding: 3%" value="0.8">
+        <label for="disk_d" style="color: greenyellow;">BOOTSTRAP:</label>
+        <meter id="disk_d" style="width: 50%; padding: 3%" value="0.8">
           100%
         </meter>
 
-        <label for="disk_c">WORD:</label>
+        <label for="disk_c" style="color: greenyellow;">WORD:</label>
         <meter
           id="disk_c"
           value="9"
-          style="width: 80%; padding: 3%"
+          style="width: 50%; padding: 3%"
           min="0"
           max="10"
         >
           2 out of 10
         </meter>
 
-        <label for="disk_d">POWERPOINT:</label>
-        <meter id="disk_d" style="width: 80%; padding: 3%" value="0.9">
+        <label for="disk_d" style="color: greenyellow;  ">POWERPOINT:</label>
+        <meter id="disk_d" style="width: 50%; padding: 3%" value="0.9">
           100%
         </meter>
 
-        <label for="disk_d">EXCEL:</label>
-        <meter id="disk_d" style="width: 80%; padding: 3%" value="0.6">
+        <label for="disk_d" style="color: greenyellow;">EXCEL:</label>
+        <meter id="disk_d" style="width: 50%; padding: 3%" value="0.6">
           100%
         </meter>
       </div>
-    </section3>
+<div class="container" >
 
+<div class="row" style="padding-right: 650px; ">
+
+  <div class="col-12 sm-4" style="padding-left: 70px;">
+<h3 style="color: greenyellow;">Educational Background</h3>
+<p >
+  Matriculated in 2020...At bridgetown high school
+</p>
+
+  </div>
+
+  <div class="col-12 sm-4" style="text-align: start; padding-left: 70px;">
+<h3 style="color: greenyellow; font-weight: bolder;">Soft skills</h3>
+<p>Problem solving<br>
+Teamwork<br>
+Interested in technology<br>
+Communication<br>
+Adaptable </p>
+
+
+
+
+  </div>
+
+</div>
+</div>
+      
+
+    </section3>
+                                                                            <!-- PROJECTS -->
     <section4
-      id="services"
+      id="projects"
       style="
         width: 100vw;
         height: 100vh;
@@ -356,22 +373,21 @@
       >
         PROJECTS
       </h1>
-      <p style="font-size: xx-large">These are the projects i have done</p>
+      <p style="font-size: xx-large">These are the projects i have done while being at life choices... </p>
       <div
         class="service-box1"
         style="margin-bottom: -10%; display: flex; height: 40%; width: 60%; "
         
       
       >
-        <div class="container">
+        <div class="container" style="">
           <h3
             style="
               text-align: left;
-              border-bottom: 4px solid rgb(255, 255, 255);
               color: greenyellow;
             "
           >
-            Cards.
+            Cards
           </h3>
           <img
             src="./Screenshot from 2021-10-27 12-19-44.png"
@@ -388,8 +404,7 @@
         <div class="container">
           <h3
             style="
-              text-align: center;
-              border-bottom: 4px solid rgb(255, 255, 255);
+              text-align: left;
               color: greenyellow;
               
             "
@@ -410,13 +425,13 @@
           width: 30%;
           height: 15%;
           padding-top: 150px;
+          padding-left: 100px;
         "
       >
-      <div class="col-12 md-6">
+      <div class="col-12 md-6 sm-4">
         <h3
           style="
-            text-align: center;
-            border-bottom: 4px solid rgb(255, 255, 255);
+            text-align: left;
             color: greenyellow;
           "
         >
@@ -434,7 +449,7 @@
       </div>
       </div>
     </section4>
-
+                                                                      <!-- TESTIMONIALS -->
 
     <section5
     id="testimonials"
@@ -445,17 +460,18 @@
     justify-content: center;
     align-items: center;">
 
-<div style="margin-top: -30%;">
-    <h3 style="font-weight:bolder; letter-spacing:0.5rem; color:greenyellow">My testimonials</h3>
+<div style="margin-top: -20%; !important">
+    <h3 style="font-weight:bolder; letter-spacing:0.5rem; color:greenyellow;">My testimonials</h3>
     <p>As u can see the testimonials are displayed at the bottom</p>
     </div>
 
-    <div class="row" style=" margin-bottom: -20% ;">
+    <!--  ROW -->
+    <div class="row" style=" margin-bottom: -20% ; padding-top: 5%;">
 
-      <div class="col">
+      <div class="col-lg-3 col-m-6 col-s-12">
 
         <div class="card" style="width: 18rem;background-color: transparent;">
-          <img src="./Daryll.jpg" class="card-img-top" alt="..." style="width: 30%; border: 2px solid white;">
+          <img src="./siyabonga.jpg" class="card-img-top" alt="..." style="width: 75%; border: 2px solid white;">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text" style="color: rgb(255, 255, 255);">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -464,21 +480,21 @@
         </div>
       </div>
 
-      <div class="col">
+      <div class="col-lg-3 col-m-6 col-s-12">
 
         <div class="card" style="width: 18rem;background-color: transparent;">
-          <img src="./CHAD.jpg" class="card-img-top" alt="..." style="width: 30%; height: 18%;border: 2px solid white;">
+          <img src="./CHAD.jpg" class="card-img-top" alt="..." style="width: 75%; height: 285px; border: 2px solid white;">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text" style="color: rgb(255, 255, 255);">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-secondary">Go somewhere</a>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
 
-      <div class="col">
+      <div class="col-lg-3 col-m-6 col-s-12">
         <div class="card" style="width: 18rem;background-color: transparent;">
-        <img src="./TASH.jpg" class="card-img-top" alt="..." style="width: 18%; height: 18%;border: 2px solid white;">
+        <img src="./TASH.jpg" class="card-img-top" alt="..." style="width: 75%; height: 285px;border: 2px solid white;">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text" style="color: rgb(255, 255, 255);">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -486,16 +502,45 @@
         </div>
       </div>
     </div>
+
+    <div class="col-lg-3 col-m-6 col-s-12">
+      <div class="card" style="width: 18rem;background-color: transparent;">
+        <img src="./morena.jpeg" class="card-img-top" alt="..." style="width: 75%; height: 285px;border: 2px solid white;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text" style="color: rgb(255, 255, 255);">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="# " class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
     </div>
 
     
+ </section5>
+ <section id="contact" style="width: 100vw;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;">
+
+ <h2 style="letter-spacing: 0.5rem; color: greenyellow; ">
+  contact</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.2674197088077!2d18.490509915694055!3d-33.98566428062411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bedd50e81%3A0x9c746d268c8e0ad9!2sLife%20Choices!5e0!3m2!1sen!2sza!4v1635411808376!5m2!1sen!2sza" width="1150" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<h3>Contact me for information!!!</h3><br>
+
+<div class="mb-3" sty>
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Message Box</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="type in your message"></textarea>
+</div>
 
 
+ </section>
 
-
-
-
-    </section5>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
