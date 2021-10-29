@@ -22,8 +22,8 @@
     <section1
       id="home"
       style="
-        width: 100vw;
-        height: 100vh;
+        
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -111,7 +111,7 @@
       >
         DARYLL GRAINGER
       </h1>
-      <p style="text-align: center; font-size: xx-large; color: greenyellow">
+      <p class="ptag" style="text-align: center; font-size: xx-large; color: greenyellow">
         Front end developer
       </p>
       <button
@@ -151,8 +151,8 @@
     <section2
       id="about"
       style="
-        width: 100vw;
-        height: 100vh;
+        
+       min-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -161,7 +161,7 @@
     >
       <div
         class="container"
-        style="display: flex; justify-content: center; width: 100%"
+        style="display: flex; justify-content: center;"
       >
         <img
           src="./me.jpg"
@@ -175,6 +175,7 @@
             object-fit: cover;
           "
         />
+          
         <div
           class="about"
           style="
@@ -239,8 +240,8 @@
     <section3
       id="work&education"
       style="
-        width: 100vw;
-        height: 100vh;
+        
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -277,7 +278,7 @@ Work & Education      </h1>
       >
         <label for="disk_c" style="color: greenyellow;">HTML:</label>
         <meter
-          id="disk_c"
+          class="disk_c"
           value="8"
           style="width: 50%; padding: 3%"
           min="0"
@@ -287,18 +288,18 @@ Work & Education      </h1>
         </meter>
 
         <label for="disk_d" style="color: greenyellow;">CSS:</label>
-        <meter id="disk_d" style="width: 50%; padding: 3%" value="0.8">
+        <meter class="disk_d" style="width: 50%; padding: 3%" value="0.8">
           100%
         </meter>
 
         <label for="disk_d" style="color: greenyellow;">BOOTSTRAP:</label>
-        <meter id="disk_d" style="width: 50%; padding: 3%" value="0.8">
+        <meter class="disk_d" style="width: 50%; padding: 3%" value="0.8">
           100%
         </meter>
 
-        <label for="disk_c" style="color: greenyellow;">WORD:</label>
+        <label for="disk_d" style="color: greenyellow;">WORD:</label>
         <meter
-          id="disk_c"
+          class="disk_d"
           value="9"
           style="width: 50%; padding: 3%"
           min="0"
@@ -308,12 +309,12 @@ Work & Education      </h1>
         </meter>
 
         <label for="disk_d" style="color: greenyellow;  ">POWERPOINT:</label>
-        <meter id="disk_d" style="width: 50%; padding: 3%" value="0.9">
+        <meter class="disk_d" style="width: 50%; padding: 3%" value="0.9">
           100%
         </meter>
 
         <label for="disk_d" style="color: greenyellow;">EXCEL:</label>
-        <meter id="disk_d" style="width: 50%; padding: 3%" value="0.6">
+        <meter class="disk_d" style="width: 50%; padding: 3%" value="0.6">
           100%
         </meter>
       </div>
@@ -351,36 +352,34 @@ Adaptable </p>
     <section4
       id="projects"
       style="
-        width: 100vw;
-        height: 100vh;
+        
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
       "
     >
+    <div style=" padding-top: 15px; width: 50%; height: 80%; margin-bottom: 3%;">
       <!-- PROJECTS -->
-
       <h1
         class="headings"
         style="
           font-weight: bolder;
           letter-spacing: 1rem;
           color: greenyellow;
-          margin-top: -20%;
+          text-align: center
           ;
         "
       >
         PROJECTS
       </h1>
       <p style="font-size: xx-large">These are the projects i have done while being at life choices... </p>
-      <div
-        class="service-box1"
-        style="margin-bottom: -10%; display: flex; height: 40%; width: 60%; "
-        
       
-      >
-        <div class="container" style="">
+                                              <!-- CARDS -->
+                                              <div class="row" >
+                                                <div class="col-6" ">
+                                                
           <h3
             style="
               text-align: left;
@@ -397,11 +396,11 @@ Adaptable </p>
           <p style="font-size: large">
             above shows a image of the cards i have done
           </p>
-        </div>
+          <button><a href="git@github.com:Daryll28/pract3_card.git">github link.</a></button>
 
-        <!-- CAROUSELS -->
 
-        <div class="container">
+                                          <!-- CAROUSELS -->
+                                          <div class="col">
           <h3
             style="
               text-align: left;
@@ -415,20 +414,16 @@ Adaptable </p>
           <p style="font-size: large">
             The above shows one of the carousels i was busy with.
           </p>
+          <button><a href="http://127.0.0.1:5501/index.html"> link.</a></button>
+
         </div>
       </div>
 
+    <!-- </div> -->
+
       <!-- TIMELINES -->
-      <div
-        class="row"
-        style="
-          width: 30%;
-          height: 15%;
-          padding-top: 150px;
-          padding-left: 100px;
-        "
-      >
-      <div class="col-12 md-6 sm-4">
+      
+      <div class="col" style="">
         <h3
           style="
             text-align: left;
@@ -444,29 +439,31 @@ Adaptable </p>
         <img
           src="./timeline.png"
           alt=""
-          style=" width: 80%"
+          style=" width: 100%; height: 70%;"
         />
+        <button><a href=git@github.com:Daryll28/to-new-creations....git" >github link</a></button>
       </div>
+    </div>
+ 
       </div>
+
     </section4>
                                                                       <!-- TESTIMONIALS -->
 
     <section5
     id="testimonials"
-     style="width: 100vw;
-    height: 100vh;
+     style="
+    min-height: 100vh;
+    min-width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;">
-
-<div style="margin-top: -20%; !important">
-    <h3 style="font-weight:bolder; letter-spacing:0.5rem; color:greenyellow;">My testimonials</h3>
-    <p>As u can see the testimonials are displayed at the bottom</p>
-    </div>
-
+<div style="">
+    <h3 style="font-weight:bolder; letter-spacing:0.5rem; color:greenyellow; text-align: center">My testimonials</h3>
+    <p style="text-align: center; font-weight: bolder">As u can see the testimonials are displayed at the bottom</p>
     <!--  ROW -->
-    <div class="row" style=" margin-bottom: -20% ; padding-top: 5%;">
+    <div class="row" style=" ; padding-top: 5%;">
 
       <div class="col-lg-3 col-m-6 col-s-12">
 
@@ -515,29 +512,60 @@ Adaptable </p>
     </div>
     </div>
 
-    
+<div class="row">
+  <div class="col-lg-6 col-m-6">
+    <div class="card" style="width: 18rem;background-color: transparent; border: 2px solid black;">
+      <img src="./morena.jpeg" class="card-img-top" alt="..." style="width: 75%; height: 285px;border: 2px solid white;">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text" style="color: rgb(255, 255, 255);">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="# " class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+                                                                    <!-- CONTACT -->
  </section5>
- <section id="contact" style="width: 100vw;
- height: 100vh;
+ <section id="contact" style="
+ min-height: 100vh;
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;">
-
+<div class="container" style="width: 30%; padding-top: 120px;"> 
  <h2 style="letter-spacing: 0.5rem; color: greenyellow; ">
   contact</h2>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.2674197088077!2d18.490509915694055!3d-33.98566428062411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bedd50e81%3A0x9c746d268c8e0ad9!2sLife%20Choices!5e0!3m2!1sen!2sza!4v1635411808376!5m2!1sen!2sza" width="1150" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.2674197088077!2d18.490509915694055!3d-33.98566428062411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bedd50e81%3A0x9c746d268c8e0ad9!2sLife%20Choices!5e0!3m2!1sen!2sza!4v1635411808376!5m2!1sen!2sza" width="520" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 <h3>Contact me for information!!!</h3><br>
 
-<div class="mb-3" sty>
+
+                                                                    <!-- FORM -->
+<form 
+action=""
+method="POST">
+
+<div class="mb-3" >
   <label for="exampleFormControlInput1" class="form-label">Email address</label>
   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
 </div>
 <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Message Box</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="type in your message"></textarea>
-</div>
 
+                                                                      <!-- BUTTONS -->
+  <div class="row">
+  <div class="col -6">
+  <button class="submit" class="send" type="submit" style="background-color: black; color: greenyellow;">send</button>
+</div>
+  <div class="col -6">
+  <button class="reset" class="reset" type="reset" style="background-color: black; color: greenyellow; ">Reset</button>
+</div>
+  </div>
+</div>
+</form>
+</div>
 
  </section>
 
@@ -548,3 +576,10 @@ Adaptable </p>
     ></script>
   </body>
 </html>
+
+
+
+
+
+
+
