@@ -50,7 +50,14 @@ h1 {
 }
 
 
+.disk_c{
+width: 50%;
+padding: 3%;}
 
+.disk_d{
+  width: 50%;
+  padding: 3%;
+}
 
 
 .read-more {
@@ -129,17 +136,29 @@ h1 {
   color: black;
   border:2px solid greenyellow;
 }
-.me:hover {
-  border-top-style: dashed;
-  border-left-style: dashed;
-  border-radius: 10%;
+
+.containercontact{
+   width: 30%; padding-top: 120px;
 }
-
-
+.projectsect{
+  padding-top: 15px;
+  width: 60%;
+  height: 80%;
+  margin-bottom: 3%;
+}
+.time{
+  width: 80%;
+  height: 73%;
+}
 .about:hover {
   border-top-style: dashed;
   border-left-style: dashed;
   border-radius: 10%;
+}
+.carousel{
+  width: 80%;
+
+
 }
 .nav-item:hover {
   font-size: xx-large;
@@ -151,12 +170,20 @@ h1 {
   border-left: 3px solid greenyellow;
   border-bottom: 3px solid greenyellow;
 }
-
+#testi{
+  padding-top: 5%;
+}
 }
 .about-me:hover{
   font-size: 70px;
   border-bottom: 3px solid greenyellow ;
   border-top: 3px solid greenyellow;
+}
+.label1{
+  width: 55%;
+}
+#piccard{
+  margin-left: 700px;
 }
 
 
@@ -173,18 +200,57 @@ h1 {
   flex-direction: column;
   flex-wrap: column;
 }
+
+.tech{
+padding-right: 400px;
+display: inline-block;
+}
+.containercontact{
+width: auto;
+}
+
 .col{
+  height: 10%;
 }
 .label1{
   padding-left: 300px;
   width: auto;
 }
 .disk_d{
-  width: 0%;
-  align-items: center
+text-align: end;}
+.google{
+  width: 300px;
+  height: 45%;
+}
+.projectsect{
+  width: 90%;
+}
+.time{
+  height: 50%;
+}
+#card{
+  width: 60%;
+}
+.carousel{
+  width: 110%;
+  ;
+}
+.disk_c{
+  width:100% ;
+}
+.disk_d{
+ width:100%;
+}
+.containercontact{
+  padding-bottom: 300px;
+}
+#testi{
+  text-align: -moz-center;
 }
 
-
+p{
+  text-align: left;
+}
 
 .navbar-toggler{
   background-color: greenyellow;
@@ -194,5 +260,5 @@ h1 {
 .container{
   padding-left: 50px; 
 }
-
+}
 
