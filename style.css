@@ -7,10 +7,12 @@ h1 {
 	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
 .ptag{
 	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
 .read-more{
 	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -49,7 +51,6 @@ h1 {
   }
 }
 
-
 .disk_c{
 width: 50%;
 padding: 3%;}
@@ -58,7 +59,6 @@ padding: 3%;}
   width: 50%;
   padding: 3%;
 }
-
 
 .read-more {
   background-color: white;
@@ -71,9 +71,11 @@ padding: 3%;}
   border: 2px solid rgb(255, 255, 255);
   color: greenyellow;
 }
+
 .read-more {
   border: none;
 }
+
 body {
   background-repeat: no-repeat;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -82,14 +84,18 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
+
 .icon {
   display: inline-block;
   position: fixed;
   bottom: 0;
   left: 0;
   font-size: x-large;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.3rem;
+  z-index: 1;
+  margin-left: 10px;
 }
+
 #uppity{
   position: fixed;
   /* bottom: 0; */
@@ -105,19 +111,26 @@ color: black;
 .icon:hover {
   font-size: xx-large;
 }
+
 .sponsored {
   position: fixed;
   bottom: 0;
   right: 0;
+  z-index: 1;
 }
+
 .navbar {
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 1;
+  background-color: black!important;
 }
+
 * {
   color: rgb(255, 255, 255);
 }
+
 h1 {
   color: rgb(255, 255, 255);
 }
@@ -131,6 +144,7 @@ h1 {
   height: 55%;
   text-align: center;
 }
+
 .box-small:hover {
   background-color: white;
   color: black;
@@ -140,52 +154,99 @@ h1 {
 .containercontact{
    width: 30%; padding-top: 120px;
 }
+
 .projectsect{
   padding-top: 15px;
-  width: 60%;
+  width: 75%;
   height: 80%;
   margin-bottom: 3%;
 }
+
 .time{
   width: 80%;
   height: 73%;
 }
+
 .about:hover {
   border-top-style: dashed;
   border-left-style: dashed;
   border-radius: 10%;
 }
+
 .carousel{
   width: 80%;
-
-
 }
+
 .nav-item:hover {
   font-size: xx-large;
   border-left: 3px solid greenyellow;
   border-bottom: 3px solid greenyellow;
 }
+
 .heading1:hover {
   font-size: 60px;
   border-left: 3px solid greenyellow;
   border-bottom: 3px solid greenyellow;
 }
-#testi{
-  padding-top: 5%;
+
+.testimonials{
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
 }
-}
+
 .about-me:hover{
   font-size: 70px;
   border-bottom: 3px solid greenyellow ;
   border-top: 3px solid greenyellow;
 }
-.label1{
-  width: 55%;
+
+.meter{
+  width: 70%;
 }
+
 #piccard{
   margin-left: 700px;
 }
 
+.bottomTest{
+  margin-right: 15%;
+  margin-left: 15%
+}
+
+.card-img-top{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: 2px solid white
+}
+
+.info{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.card-text{
+  color: white;
+}
+
+.card{
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18rem
+}
+
+.timeline{
+  margin-left: auto;
+  margin-right: auto
+}
+
+.projects{
+  margin-right: auto;
+  margin-left: auto
+}
 
 /* media queries */
 
@@ -193,10 +254,21 @@ h1 {
 .me{
   display: none ;
 }
+
+label{
+  font-size: 13px;
+  font-weight: 600;
+}
+
 .read-more{
   display: none;
 }
-#work&education{
+
+.bottomTest{
+  margin: 0;
+}
+
+#workducation{
   flex-direction: column;
   flex-wrap: column;
 }
@@ -205,6 +277,7 @@ h1 {
 padding-right: 400px;
 display: inline-block;
 }
+
 .containercontact{
 width: auto;
 }
@@ -212,38 +285,43 @@ width: auto;
 .col{
   height: 10%;
 }
+
 .label1{
   padding-left: 300px;
   width: auto;
 }
+
 .disk_d{
 text-align: end;}
 .google{
   width: 300px;
   height: 45%;
 }
+
 .projectsect{
   width: 90%;
 }
+
 .time{
   height: 50%;
 }
+
 #card{
   width: 60%;
 }
-.carousel{
-  width: 110%;
-  ;
-}
+
 .disk_c{
   width:100% ;
 }
+
 .disk_d{
  width:100%;
 }
+
 .containercontact{
   padding-bottom: 300px;
 }
+
 #testi{
   text-align: -moz-center;
 }
@@ -256,9 +334,11 @@ p{
   background-color: greenyellow;
 }
 
+.icon{
+  letter-spacing: 0.1rem;
+}
 
 .container{
   padding-left: 50px; 
 }
 }
-
