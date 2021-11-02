@@ -4,16 +4,16 @@ h1 {
 
                                                 /* ANIMATION */
 .heading1{
-	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: slide-top 1.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 1.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .ptag{
-	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: slide-top 1.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 1.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .read-more{
-	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: slide-top 1.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 1.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /* ----------------------------------------------
@@ -182,9 +182,7 @@ h1 {
 .label1{
   width: 55%;
 }
-#piccard{
-  margin-left: 700px;
-}
+
 
 
 /* media queries */
