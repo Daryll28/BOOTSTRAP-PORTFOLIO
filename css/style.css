@@ -2,20 +2,20 @@ h1 {
   color: rgb(255, 255, 255);
 }
 
-/* ANIMATION */
-.heading1 {
-  -webkit-animation: slide-top 1.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-top 1.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+                                                /* ANIMATION */
+.heading1{
+	-webkit-animation: slide-top 1.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 1.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-.ptag {
-  -webkit-animation: slide-top 1.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-top 1.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+.ptag{
+	-webkit-animation: slide-top 1.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 1.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-.read-more {
-  -webkit-animation: slide-top 1.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-top 1.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+.read-more{
+	-webkit-animation: slide-top 1.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 1.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /* ----------------------------------------------
@@ -30,33 +30,32 @@ h1 {
  * animation slide-top
  * ----------------------------------------
  */
-@-webkit-keyframes slide-top {
+ @-webkit-keyframes slide-top {
   0% {
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
   }
   100% {
     -webkit-transform: translateY(-100px);
-    transform: translateY(-100px);
+            transform: translateY(-100px);
   }
 }
 @keyframes slide-top {
   0% {
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
   }
   100% {
     -webkit-transform: translateY(-100px);
-    transform: translateY(-100px);
+            transform: translateY(-100px);
   }
 }
 
-.disk_c {
-  width: 50%;
-  padding: 3%;
-}
+.disk_c{
+width: 50%;
+padding: 3%;}
 
-.disk_d {
+.disk_d{
   width: 50%;
   padding: 3%;
 }
@@ -80,8 +79,8 @@ h1 {
 body {
   background-repeat: no-repeat;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-url(/pictures/background-img.webp)  
-background-size: cover;
+    url(./background-img.webp);
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
@@ -97,16 +96,16 @@ background-size: cover;
   margin-left: 10px;
 }
 
-#uppity {
+#uppity{
   position: fixed;
   /* bottom: 0; */
   right: 0;
 }
 
-#uppity:hover {
-  background-color: greenyellow;
-  font-size: xx-large;
-  color: black;
+#uppity:hover{
+background-color: greenyellow;
+font-size: xx-large;
+color: black;
 }
 
 .icon:hover {
@@ -125,7 +124,7 @@ background-size: cover;
   top: 0;
   right: 0;
   z-index: 1;
-  background-color: black !important;
+  background-color: black!important;
 }
 
 * {
@@ -149,30 +148,32 @@ h1 {
 .box-small:hover {
   background-color: white;
   color: black;
-  border: 2px solid greenyellow;
+  border:2px solid greenyellow;
 }
 
-.containercontact {
-  width: 30%;
-  padding-top: 120px;
-  text-align: center;
+.containercontact{
+   width: 30%; padding-top: 120px; text-align: center;
 }
 
-.projectsect {
+.projectsect{
   padding-top: 15px;
-  width: 90%;
+  width: 75%;
   height: 80%;
   margin-bottom: 3%;
 }
 
-.time {
+.time{
   width: 80%;
   height: 73%;
 }
 
+.about:hover {
+  border-top-style: dashed;
+  border-left-style: dashed;
+  border-radius: 10%;
+}
 
-
-.carousel {
+.carousel{
   width: 80%;
 }
 
@@ -188,163 +189,164 @@ h1 {
   border-bottom: 3px solid greenyellow;
 }
 
-.testimonials {
+.testimonials{
   align-items: center;
   justify-content: center;
   margin-right: auto;
   margin-left: auto;
 }
 
-.about-me:hover {
+.about-me:hover{
   font-size: 70px;
-  border-bottom: 3px solid greenyellow;
+  border-bottom: 3px solid greenyellow ;
   border-top: 3px solid greenyellow;
 }
 
-.meter {
+.meter{
   width: 60%;
 }
 
-======= #piccard {
+=======
+#piccard{
   margin-left: 700px;
 }
 
-.bottomTest {
+.bottomTest{
   margin-right: 15%;
-  margin-left: 15%;
+  margin-left: 15%
 }
 
-.card-img-top {
+.card-img-top{
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  border: 2px solid white;
+  border: 2px solid white
 }
 
-.info {
+.info{
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.card-text {
+.card-text{
   color: white;
 }
 
-.card {
+.card{
   background-color: transparent;
   margin-left: auto;
   margin-right: auto;
-  width: 18rem;
+  width: 18rem
 }
 
-.timeline {
+.timeline{
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto
 }
 
-.projects {
+.projects{
   margin-right: auto;
-  margin-left: auto;
+  margin-left: auto
 }
-#educational {
-padding-right: 8  00px;}
+#educational{
+justify-content: center;
+padding-left: 500px;
+}
 
 /* media queries */
 
-@media all and (max-width: 850px) {
-  .me {
-    display: none;
-  }
+@media all and (max-width:850px){
+.me{
+  display: none ;
+}
 
-  label {
-    font-size: 13px;
-    font-weight: 600;
-  }
+label{
+  font-size: 13px;
+  font-weight: 600;
+}
 
-  .read-more {
-    display: none;
-  }
-  navbar {
-    color: transparent;
-  }
-  .bottomTest {
-    margin: 0;
-  }
+.read-more{
+  display: none;
+}
+navbar{color: transparent;}
+.bottomTest{
+  margin: 0;
+}
 
-  #workducation {
-    flex-direction: column;
-    flex-wrap: column;
-  }
+#workducation{
+  flex-direction: column;
+  flex-wrap: column;
+}
 
-  .tech {
-    padding-right: 400px;
-    display: inline-block;
-  }
+.tech{
+padding-right: 400px;
+display: inline-block;
+}
 
-  .containercontact {
-    width: auto;
-  }
+.containercontact{
+width: auto;
+}
 
-  .col {
-    height: 10%;
-  }
+.col{
+  height: 10%;
+}
 
-  .label1 {
-    padding-left: 300px;
-    width: auto;
-  }
+.label1{
+  padding-left: 300px;
+  width: auto;
+}
 
-  .disk_d {
-    text-align: end;
-  }
-  .google {
-    width: 300px;
-    height: 45%;
-  }
+.disk_d{
+text-align: end;}
+.google{
+  width: 300px;
+  height: 45%;
+}
 
-  .projectsect {
-    width: 90%;
-  }
+.projectsect{
+  width: 90%;
+}
 
-  .time {
-    height: 50%;
-  }
+.time{
+  height: 50%;
+}
 
-  #card {
-    width: 60%;
-  }
+#card{
+  width: 60%;
+}
 
-  .disk_c {
-    width: 100%;
-  }
+.disk_c{
+  width:100% ;
+}
 
-  .disk_d {
-    width: 100%;
-  }
+.disk_d{
+ width:100%;
+}
 
-  .containercontact {
-    padding-bottom: 300px;
-  }
+.containercontact{
+  padding-bottom: 300px;
+}
 
-  #testi {
-    text-align: -moz-center;
-  }
+#testi{
+  text-align: -moz-center;
+}
 
-  p {
-    text-align: left;
-  }
+p{
+  text-align: left;
+}
 
-  .navbar-toggler {
-    background-color: greenyellow;
-  }
+.navbar-toggler{
+  background-color: greenyellow;
+}
 
-  .icon {
-    letter-spacing: 0.1rem;
-  }
+.icon{
+  letter-spacing: 0.1rem;
+}
 
-  .container {
-    padding-left: 50px;
-  }
-  #educational {
-  }
+.container{
+  padding-left: 50px; 
+}
+#educational{
+}
+
 }
