@@ -80,7 +80,7 @@ h1 {
 body {
   background-repeat: no-repeat;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-url(/pictures/background-img.webp)  
+url(/pictures/background-img.webp)  ;
 background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -187,7 +187,6 @@ h1 {
   border-left: 3px solid greenyellow;
   border-bottom: 3px solid greenyellow;
 }
-
 .testimonials {
   align-items: center;
   justify-content: center;
@@ -195,11 +194,7 @@ h1 {
   margin-left: auto;
 }
 
-.about-me:hover {
-  font-size: 70px;
-  border-bottom: 3px solid greenyellow;
-  border-top: 3px solid greenyellow;
-}
+
 
 .meter {
   width: 60%;
