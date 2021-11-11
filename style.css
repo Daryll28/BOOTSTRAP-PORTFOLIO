@@ -194,7 +194,11 @@ h1 {
   margin-left: auto;
 }
 
-
+.about-me:hover {
+  font-size: 70px;
+  border-bottom: 30px solid greenyellow;
+  border-top: 3px solid greenyellow;
+}
 
 .meter {
   width: 60%;
